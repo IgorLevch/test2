@@ -9,5 +9,13 @@
         <module name="test2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test2" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="test2" options="" />
+    </option>
   </component>
 </project>
